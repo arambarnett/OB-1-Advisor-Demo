@@ -1,0 +1,48 @@
+{
+  "activeTasks": [
+    {
+      "id": "task-1",
+      "title": "Portfolio Risk Analysis",
+      "description": "Analyzing your portfolio risk exposure and calculating optimal risk/reward metrics.",
+      "status": "in_progress",
+      "progress": 65,
+      "startedAt": "2025-05-22T09:30:00Z",
+      "estimatedCompletion": "2025-05-22T10:00:00Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Tax-Loss Harvesting Opportunities",
+      "description": "Identifying positions that could be sold to offset capital gains and minimize tax liability.",
+      "status": "queued",
+      "progress": 0,
+      "startedAt": null,
+      "estimatedCompletion": null
+    }
+  ],
+  "completedTasks": [
+    {
+      "id": "task-3",
+      "title": "Asset Allocation Review",
+      "description": "Reviewing current asset allocation and suggesting adjustments based on market conditions.",
+      "status": "completed",
+      "completedAt": "2025-05-21T16:45:00Z",
+      "result": "Recommended increasing ETH allocation by 5% and reducing USDC holdings."
+    },
+    {
+      "id": "task-4",
+      "title": "Yield Optimization Analysis",
+      "description": "Analyzing DeFi protocols to find the highest sustainable yield for stablecoin assets.",
+      "status": "completed",
+      "completedAt": "2025-05-20T11:20:00Z",
+      "result": "Identified Aave V3 as offering the best risk-adjusted return at 4.3% APY."
+    },
+    {
+      "id": "task-5",
+      "title": "Gas Fee Optimization",
+      "description": "Monitoring the Ethereum network to identify optimal transaction times with lower gas fees.",
+      "status": "completed",
+      "completedAt": "2025-05-19T08:15:00Z",
+      "result": "Recommended scheduling transactions between 2-4 AM UTC for 15-20% gas savings."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "tradingPairs": [
+    { "id": "eth-usdc", "name": "ETH/USDC", "price": 2345.67, "change": 3.2 },
+    { "id": "btc-usdc", "name": "BTC/USDC", "price": 48234.56, "change": -1.4 },
+    { "id": "uni-usdc", "name": "UNI/USDC", "price": 8.76, "change": 5.6 },
+    { "id": "link-usdc", "name": "LINK/USDC", "price": 16.32, "change": 2.1 },
+    { "id": "matic-usdc", "name": "MATIC/USDC", "price": 1.23, "change": -0.8 },
+    { "id": "sol-usdc", "name": "SOL/USDC", "price": 121.45, "change": 7.3 }
+  ],
+  "recentTrades": [
+    {
+      "id": "trade-1",
+      "type": "buy",
+      "pair": "ETH/USDC",
+      "amount": "0.5 ETH",
+      "price": "2341.20 USDC",
+      "total": "1170.60 USDC",
+      "timestamp": "2025-05-22T09:45:12Z",
+      "status": "completed"
+    },
+    {
+      "id": "trade-2",
+      "type": "sell",
+      "pair": "UNI/USDC",
+      "amount": "25 UNI",
+      "price": "8.82 USDC",
+      "total": "220.50 USDC",
+      "timestamp": "2025-05-20T14:30:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "trade-3",
+      "type": "buy",
+      "pair": "BTC/USDC",
+      "amount": "0.02 BTC",
+      "price": "48120.50 USDC",
+      "total": "962.41 USDC",
+      "timestamp": "2025-05-18T11:20:15Z",
+      "status": "completed"
+    }
+  ],
+  "openOrders": [
+    {
+      "id": "order-1",
+      "type": "limit_buy",
+      "pair": "ETH/USDC",
+      "amount": "0.5 ETH",
+      "price": "2300.00 USDC",
+      "total": "1150.00 USDC",
+      "timestamp": "2025-05-22T08:15:00Z",
+      "status": "open"
+    },
+    {
+      "id": "order-2",
+      "type": "limit_sell",
+      "pair": "BTC/USDC",
+      "amount": "0.01 BTC",
+      "price": "49000.00 USDC",
+      "total": "490.00 USDC",
+      "timestamp": "2025-05-21T16:45:30Z",
+      "status": "open"
+    }
+  ],
+  "tradingStrategies": [
+    {
+      "id": "strategy-1",
+      "name": "ETH/BTC Rebalance",
+      "description": "Automatically rebalance portfolio to maintain 60% ETH, 40% BTC allocation",
+      "status": "active",
+      "lastExecution": "2025-05-20T00:00:00Z",
+      "nextExecution": "2025-05-27T00:00:00Z",
+      "frequency": "weekly",
+      "performance": "+3.2%"
+    },
+    {
+      "id": "strategy-2",
+      "name": "DCA Bitcoin",
+      "description": "Dollar-cost average into Bitcoin weekly with $100 USDC",
+      "status": "active",
+      "lastExecution": "2025-05-19T00:00:00Z",
+      "nextExecution": "2025-05-26T00:00:00Z",
+      "frequency": "weekly",
+      "performance": "+5.7%"
+    },
+    {
+      "id": "strategy-3",
+      "name": "Stop Loss ETH",
+      "description": "Automatically sell ETH if price drops below $2200",
+      "status": "active",
+      "lastExecution": null,
+      "nextExecution": null,
+      "frequency": "conditional",
+      "performance": "N/A"
+    }
+  ],
+  "exchangeInfo": [
+    {
+      "id": "uniswap",
+      "name": "Uniswap V3",
+      "status": "connected",
+      "type": "DEX",
+      "gasEstimate": "0.0045 ETH"
+    },
+    {
+      "id": "curve",
+      "name": "Curve Finance",
+      "status": "connected",
+      "type": "DEX",
+      "gasEstimate": "0.0032 ETH"
+    },
+    {
+      "id": "aave",
+      "name": "Aave V3",
+      "status": "connected",
+      "type": "Lending",
+      "gasEstimate": "0.0051 ETH"
+    }
+  ],
+  "aiTradeAssistants": [
+    {
+      "id": "assistant-1",
+      "name": "Swap Optimizer",
+      "description": "Find the most efficient route for token swaps across DEXes",
+      "command": "Optimize my swap of 1000 USDC to ETH"
+    },
+    {
+      "id": "assistant-2",
+      "name": "Strategy Builder",
+      "description": "Create and deploy custom trading strategies based on your preferences",
+      "command": "Create a DCA strategy for ETH with $200 weekly"
+    },
+    {
+      "id": "assistant-3",
+      "name": "Portfolio Rebalancer",
+      "description": "Automatically rebalance your portfolio to target allocations",
+      "command": "Rebalance my portfolio to 50% ETH, 30% BTC, 20% stablecoins"
+    },
+    {
+      "id": "assistant-4",
+      "name": "Tax Optimizer",
+      "description": "Execute trades that optimize for tax efficiency",
+      "command": "Find tax-loss harvesting opportunities in my portfolio"
+    }
+  ]
+}

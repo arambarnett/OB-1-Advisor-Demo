@@ -1,0 +1,166 @@
+{
+  "protocols": [
+    {
+      "id": "aave",
+      "name": "Aave V3",
+      "type": "Lending",
+      "icon": "🔄",
+      "positions": [
+        {
+          "type": "supply",
+          "asset": "ETH",
+          "amount": "0.75",
+          "value": 1759.25,
+          "apy": 1.2
+        },
+        {
+          "type": "borrow",
+          "asset": "USDC",
+          "amount": "600.00",
+          "value": 600.00,
+          "apy": 3.8
+        }
+      ],
+      "metrics": {
+        "healthFactor": 1.32,
+        "netApy": -2.6,
+        "borrowLimit": 1100.00,
+        "borrowUsed": 600.00
+      }
+    },
+    {
+      "id": "uniswap",
+      "name": "Uniswap V3",
+      "type": "DEX",
+      "icon": "🦄",
+      "positions": [
+        {
+          "pairName": "ETH/USDC",
+          "liquidity": 650.00,
+          "range": "2200 - 2500",
+          "feesEarned": 3.42,
+          "apy": 14.5
+        }
+      ],
+      "metrics": {
+        "rewards": 12,
+        "feesValue": 3.42,
+        "currentInRange": true
+      }
+    },
+    {
+      "id": "curve",
+      "name": "Curve Finance",
+      "type": "DEX",
+      "icon": "🔄",
+      "positions": [
+        {
+          "poolName": "3pool",
+          "liquidity": 300.00,
+          "composition": "DAI/USDC/USDT",
+          "feesEarned": 1.21,
+          "apy": 4.2
+        }
+      ],
+      "metrics": {
+        "rewards": 5.3,
+        "feesValue": 1.21
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunity-1",
+      "name": "Stake ETH on Lido",
+      "description": "Earn 3.8% APY by staking ETH on Lido",
+      "protocol": "Lido",
+      "apy": 3.8,
+      "risk": "low",
+      "tags": ["staking", "liquid-staking"]
+    },
+    {
+      "id": "opportunity-2",
+      "name": "Provide USDC/USDT liquidity",
+      "description": "Earn 6.2% APY providing stable pair liquidity on Curve",
+      "protocol": "Curve",
+      "apy": 6.2,
+      "risk": "low",
+      "tags": ["liquidity", "stablecoin"]
+    },
+    {
+      "id": "opportunity-3",
+      "name": "MATIC/ETH Concentrated Liquidity",
+      "description": "Earn 19.4% APY with optimized range on Uniswap V3",
+      "protocol": "Uniswap",
+      "apy": 19.4,
+      "risk": "medium",
+      "tags": ["liquidity", "concentrated"]
+    },
+    {
+      "id": "opportunity-4",
+      "name": "Borrow USDC against ETH",
+      "description": "Net APY of 2.1% when borrowing USDC against ETH on Aave",
+      "protocol": "Aave",
+      "apy": 2.1,
+      "risk": "medium",
+      "tags": ["lending", "borrowing"]
+    }
+  ],
+  "yields": {
+    "lending": [
+      {
+        "protocol": "Aave",
+        "asset": "USDC",
+        "supplyApy": 1.5,
+        "borrowApy": 3.8
+      },
+      {
+        "protocol": "Compound",
+        "asset": "USDC",
+        "supplyApy": 1.3,
+        "borrowApy": 4.2
+      },
+      {
+        "protocol": "Aave",
+        "asset": "ETH",
+        "supplyApy": 1.2,
+        "borrowApy": 2.7
+      },
+      {
+        "protocol": "Compound",
+        "asset": "ETH",
+        "supplyApy": 0.9,
+        "borrowApy": 3.1
+      }
+    ],
+    "staking": [
+      {
+        "protocol": "Lido",
+        "asset": "ETH",
+        "apy": 3.8
+      },
+      {
+        "protocol": "Rocket Pool",
+        "asset": "ETH",
+        "apy": 3.9
+      }
+    ],
+    "liquidity": [
+      {
+        "protocol": "Uniswap V3",
+        "pair": "ETH/USDC",
+        "apy": "8.5-22.4"
+      },
+      {
+        "protocol": "Curve",
+        "pair": "3pool",
+        "apy": 4.2
+      },
+      {
+        "protocol": "Balancer",
+        "pair": "ETH/BTC/USDC",
+        "apy": 7.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "wallet": "0xDEADBEEF",
+  "netWorth": [1200, 1225, 1240, 1235, 1280, 1260, 1300],
+  "tokens": {
+    "ETH": 1.5,
+    "USDC": 500,
+    "UNI": 75
+  },
+  "protocols": {
+    "aave": {
+      "healthFactor": 1.32,
+      "collateral": 800,
+      "borrowed": 600
+    },
+    "uniswap": {
+      "rewards": 12,
+      "apy": 14.5
+    }
+  }
+}

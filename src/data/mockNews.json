@@ -1,0 +1,112 @@
+{
+  "featured": {
+    "title": "Ethereum Layer 2 Solutions See 43% Growth in TVL This Month",
+    "source": "DeFi Insights",
+    "date": "6 hours ago",
+    "image": "ethereum-growth.jpg",
+    "summary": "Ethereum Layer 2 scaling solutions Arbitrum and Optimism have seen a combined 43% increase in Total Value Locked (TVL) over the past month, signaling growing adoption of scaling technologies amid Ethereum's continued network congestion.",
+    "relevance": "Based on your ETH and ARB holdings",
+    "sentimentScore": 85,
+    "tags": ["Ethereum", "Layer 2", "Scaling"]
+  },
+  "news": [
+    {
+      "id": "news-1",
+      "title": "Aave V3 Introduces New Risk Parameters for ETH Collateral",
+      "source": "DeFi Prime",
+      "date": "12 hours ago",
+      "summary": "Aave has adjusted risk parameters for ETH collateral on its V3 platform, increasing the liquidation threshold to 82.5% and adjusting interest rate models to better reflect market conditions.",
+      "relevance": "Impacts your Aave position",
+      "sentimentScore": 65,
+      "tags": ["Aave", "DeFi", "Risk Management"],
+      "portfolioImpact": "high"
+    },
+    {
+      "id": "news-2",
+      "title": "Uniswap Governance Approves Fee Switch for Certain Pools",
+      "source": "UniNews",
+      "date": "1 day ago",
+      "summary": "Uniswap governance has approved a proposal to activate protocol fees for selected pools, potentially increasing rewards for UNI stakers and protocol treasury.",
+      "relevance": "Affects your UNI holdings & LP position",
+      "sentimentScore": 70,
+      "tags": ["Uniswap", "Governance", "Fees"],
+      "portfolioImpact": "medium"
+    },
+    {
+      "id": "news-3",
+      "title": "Bitcoin Options Open Interest Reaches All-Time High",
+      "source": "Crypto Markets Today",
+      "date": "2 days ago",
+      "summary": "Bitcoin options open interest has reached an all-time high of $20.5 billion, indicating increased institutional interest and potential market volatility ahead.",
+      "relevance": "Relevant to your BTC holdings",
+      "sentimentScore": 75,
+      "tags": ["Bitcoin", "Derivatives", "Market Analysis"],
+      "portfolioImpact": "medium"
+    },
+    {
+      "id": "news-4",
+      "title": "Chainlink Expands Data Feeds to Include Real-World Assets",
+      "source": "Oracle News",
+      "date": "3 days ago",
+      "summary": "Chainlink has expanded its oracle network to include real-world asset data feeds, enabling DeFi protocols to offer products based on traditional financial markets.",
+      "relevance": "Relevant to your LINK holdings",
+      "sentimentScore": 90,
+      "tags": ["Chainlink", "Oracles", "RWA"],
+      "portfolioImpact": "medium"
+    },
+    {
+      "id": "news-5",
+      "title": "Curve Finance Launches New Stablecoin Pool with Enhanced Yields",
+      "source": "Stable Report",
+      "date": "3 days ago",
+      "summary": "Curve Finance has introduced a new stablecoin pool featuring USDC, DAI, and USDT with boosted yields up to 8.5% APY through partnerships with lending protocols.",
+      "relevance": "New opportunity for your stablecoins",
+      "sentimentScore": 80,
+      "tags": ["Curve", "Stablecoins", "Yield"],
+      "portfolioImpact": "high"
+    }
+  ],
+  "socialInsights": [
+    {
+      "id": "social-1",
+      "platform": "Discord",
+      "community": "Aave Community",
+      "highlight": "Developers discussing potential liquidation parameter adjustments in the next update",
+      "sentiment": "neutral",
+      "date": "Today",
+      "relevance": "Could affect your loan position"
+    },
+    {
+      "id": "social-2",
+      "platform": "Twitter",
+      "community": "Ethereum Devs",
+      "highlight": "Growing consensus about EIP-4844 implementation timeline, with data suggesting September deployment",
+      "sentiment": "positive",
+      "date": "Yesterday",
+      "relevance": "Bullish for your ETH holdings"
+    },
+    {
+      "id": "social-3",
+      "platform": "Telegram",
+      "community": "Arbitrum Ecosystem",
+      "highlight": "Multiple projects planning token launches on Arbitrum in Q3, potentially driving more adoption",
+      "sentiment": "positive",
+      "date": "2 days ago",
+      "relevance": "Positive for your ARB investment"
+    }
+  ],
+  "marketAnalysis": {
+    "title": "DeFi Market Analysis: June 2025",
+    "summary": "DeFi TVL has grown 15% month-over-month, with lending protocols seeing the strongest inflows. Yield farming APYs have stabilized in the 4-8% range for blue-chip protocols. Correlation between DeFi tokens and ETH price remains high at 0.85.",
+    "insights": [
+      "Lending protocols outperforming DEXes in token performance",
+      "Stablecoin yields trending upward with rising interest rates",
+      "L2 protocols showing strongest user growth metrics"
+    ],
+    "portfolioRecommendations": [
+      "Consider increasing allocation to lending protocol tokens",
+      "Look for opportunities in L2 ecosystem projects",
+      "Maintain current stablecoin yield farming positions"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "assets": [
+    {
+      "id": "eth",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "icon": "🔷",
+      "balance": "1.5",
+      "value": 3518.51,
+      "priceUsd": 2345.67,
+      "change24h": 3.2
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "icon": "₿",
+      "balance": "0.03",
+      "value": 1447.04,
+      "priceUsd": 48234.56,
+      "change24h": -1.4
+    },
+    {
+      "id": "usdc",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "icon": "💵",
+      "balance": "500.00",
+      "value": 500.00,
+      "priceUsd": 1.00,
+      "change24h": 0.01
+    },
+    {
+      "id": "uni",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "icon": "🦄",
+      "balance": "75.00",
+      "value": 657.00,
+      "priceUsd": 8.76,
+      "change24h": 5.6
+    },
+    {
+      "id": "link",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "icon": "🔗",
+      "balance": "25.00",
+      "value": 408.00,
+      "priceUsd": 16.32,
+      "change24h": 2.1
+    },
+    {
+      "id": "matic",
+      "name": "Polygon",
+      "symbol": "MATIC",
+      "icon": "⬡",
+      "balance": "300.00",
+      "value": 369.00,
+      "priceUsd": 1.23,
+      "change24h": -0.8
+    }
+  ],
+  "totalValue": 6899.55,
+  "change24h": 2.4
+}

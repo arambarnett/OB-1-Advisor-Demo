@@ -1,0 +1,115 @@
+{
+  "monthlyReturns": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    "data": [2.3, -1.4, 5.6, 3.2, -0.8, 4.1]
+  },
+  "assetAllocationHistory": [
+    {
+      "date": "2025-01-01",
+      "ETH": 55,
+      "BTC": 20,
+      "USDC": 15,
+      "Other": 10
+    },
+    {
+      "date": "2025-02-01",
+      "ETH": 50,
+      "BTC": 25,
+      "USDC": 15,
+      "Other": 10
+    },
+    {
+      "date": "2025-03-01",
+      "ETH": 45,
+      "BTC": 30,
+      "USDC": 15,
+      "Other": 10
+    },
+    {
+      "date": "2025-04-01",
+      "ETH": 40,
+      "BTC": 35,
+      "USDC": 15,
+      "Other": 10
+    },
+    {
+      "date": "2025-05-01",
+      "ETH": 45,
+      "BTC": 30,
+      "USDC": 15,
+      "Other": 10
+    },
+    {
+      "date": "2025-06-01",
+      "ETH": 48,
+      "BTC": 27,
+      "USDC": 15,
+      "Other": 10
+    }
+  ],
+  "performanceMetrics": {
+    "totalReturn": 12.6,
+    "volatility": 18.4,
+    "sharpeRatio": 0.68,
+    "maxDrawdown": 14.2,
+    "beta": 1.2
+  },
+  "taxEvents": [
+    {
+      "date": "2025-03-15",
+      "type": "Sell",
+      "asset": "ETH",
+      "amount": 0.5,
+      "proceedsUSD": 1250,
+      "costBasisUSD": 950,
+      "gainLossUSD": 300,
+      "gainLossPercent": 31.6,
+      "holdingPeriod": "Long-term"
+    },
+    {
+      "date": "2025-04-22",
+      "type": "Sell",
+      "asset": "UNI",
+      "amount": 25,
+      "proceedsUSD": 275,
+      "costBasisUSD": 200,
+      "gainLossUSD": 75,
+      "gainLossPercent": 37.5,
+      "holdingPeriod": "Short-term"
+    },
+    {
+      "date": "2025-05-10",
+      "type": "Reward",
+      "asset": "UNI",
+      "amount": 12,
+      "proceedsUSD": 132,
+      "costBasisUSD": 0,
+      "gainLossUSD": 132,
+      "gainLossPercent": 100,
+      "holdingPeriod": "Income"
+    }
+  ],
+  "clientReports": [
+    {
+      "id": "report-2025-q1",
+      "title": "Q1 2025 Performance Summary",
+      "date": "2025-04-05",
+      "description": "Quarterly report detailing portfolio performance, asset allocation changes, and market commentary.",
+      "fileUrl": "#"
+    },
+    {
+      "id": "report-tax-2024",
+      "title": "2024 Tax Year Summary",
+      "date": "2025-03-20",
+      "description": "Annual tax report with capital gains/losses and taxable events for the 2024 tax year.",
+      "fileUrl": "#"
+    },
+    {
+      "id": "report-risk-assessment",
+      "title": "Portfolio Risk Assessment",
+      "date": "2025-02-15",
+      "description": "Detailed analysis of portfolio risk metrics, including volatility, drawdown, and correlation.",
+      "fileUrl": "#"
+    }
+  ]
+}
