@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OB-1-Advisor-Demo/static/css/main.9f7860e8.css",
+    "main.js": "/OB-1-Advisor-Demo/static/js/main.97188030.js",
+    "index.html": "/OB-1-Advisor-Demo/index.html",
+    "main.9f7860e8.css.map": "/OB-1-Advisor-Demo/static/css/main.9f7860e8.css.map",
+    "main.97188030.js.map": "/OB-1-Advisor-Demo/static/js/main.97188030.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f7860e8.css",
+    "static/js/main.97188030.js"
+  ]
+}
